@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 /* Reset e Estilos Gerais */
 * {
   margin: 0;
@@ -63,6 +65,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  h2{
+    color: #fff;
+    font-family:'Libre Baskerville';
+    font-size: 15px;
+    margin-left: 30px;
+  }
 }
 
 .logo img {
@@ -99,7 +108,8 @@ nav ul li a:hover {
   padding: 10px;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 850px) {
   .menu-toggle {
     display: block;
   }
